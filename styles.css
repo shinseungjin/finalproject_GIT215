@@ -1,0 +1,155 @@
+*{
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #222;
+    box-sizing: border-box;
+}
+/* ----- BODY STYLES ----- */
+body{
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+/* ----- HEADER STYLES ----- */
+header{
+    width: 1280px;
+    margin: auto;
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+}
+/* ----- HEADING STYLES ----- */
+h1{
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+h2{
+	font-size: 1.65em;
+	text-align: center;
+	margin: 32px 0 16px 0;
+    font-family: 'Secular One', sans-serif;
+}
+h3{
+    font-size: 1.65rem;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+/* ----- NAVIGATION STYLES ----- */
+nav{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: rgb(68, 66, 66);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    width: 275px;
+}
+nav a{
+    font-family: 'Carter One', cursive;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    margin: 0px auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* ----- HOVER STYLES ----- */
+nav a:hover, .active{
+    color: #fa0000;
+}
+/* ----- LINK STYLES ----- */
+a{
+    display: block;
+    padding: 1rem;
+}
+/* ----- IMAGE STYLES ----- */
+img{
+    display: block;
+    margin: 0 auto;
+  }
+/* ----- TEXT STYLES ----- */
+p{
+    line-height: 1.5;
+    max-width: 65ch;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+}
+/* ----- MAIN STYLES ----- */
+
+
+/* ----- INTRO SECTION STYLES ----- */
+#intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+#intro h2, #intro img, #intro h3, #intro p{
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+}
+#intro img{
+    max-width: 1280px;
+    margin: 1rem auto;
+}
+#intro a{
+    text-decoration: none;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+/* ----- LOCAL SECTION STYLES ----- */
+#localandchef{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+#localandchef section{
+    max-width: 500px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    margin: 0 0 0 10rem;
+}
+#localandchef img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0;
+    box-shadow: none;
+}
+#localandchef h3{
+    padding: 0.5rem;
+    border-radius: 0.25rem 0.25rem 0 0;
+    margin-bottom: 0;
+  }
+#localandchef p{
+    padding: 1rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+/* ----- FOOTER STYLES ----- */
+footer{
+    width: 1280px;
+    margin: auto;
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+}
+footer p{
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    font-family: 'Carter One', cursive;
+}
+
+
+
+
